@@ -1,0 +1,44 @@
+/* 27in */  
+@media only screen and (min-width: 1920px) {  
+    body {  
+        font-size: 24px;  
+    }  
+   
+
+}  
+
+/* 24 in */  
+@media only screen and (max-width: 1780px) {  
+    body {  
+        font-size: 20px;  
+    }  
+
+}  
+
+/* 13 in */  
+@media only screen and (max-width: 1400px) {  
+    body {  
+        font-size: 18px;  
+    }  
+  
+}  
+
+/* mobile */  
+@media only screen and (max-width: 450px) {  
+    /* Add styles for mobile devices here */  
+    img.immg-f.m-2 {
+        width: 298px;
+    } 
+    .box-tokenomics {
+        position: absolute;
+        top: 24%;
+        left: -20%;
+    }
+    h1.text-left.text-bold.text-white.title-token {
+        font-size: 30px;
+    }
+    .social_media-footer a img {
+        width: 10.2vw;
+        height: auto;
+    }
+}
